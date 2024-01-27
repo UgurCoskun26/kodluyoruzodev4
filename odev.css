@@ -1,0 +1,47 @@
+/** HADİ BAKALIM **/
+
+body {
+    background-color:lemonchiffon
+}
+section {
+    text-align: center;
+      }
+
+.liste {
+    list-style-position: inside
+}
+
+.sabit {
+    font-size: 40px;
+}
+
+article {
+    font-size: 30px;
+  }
+
+.resim{
+    width:20%;max-width:500px;
+}
+#baslık{
+    width: 2000px;
+  height: 80px;
+  border: 20px solid;
+  border-image: linear-gradient(var(--angle),#ffb56b,#ac255e) 1;
+  animation: 250ms rotate linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
